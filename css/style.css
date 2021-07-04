@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+     
+body{
+    /* font-family: 'Roboto', Arial, Helvetica, sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+.headtext{
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+
+}
+
+img{
+    height: auto;
+    width: 60px;
+}
+
+.card-body{
+    background-color: #EFEFEF;
+}
+
+
+.list-group{
+    flex-flow: row wrap !important;
+}
+
+.list-group-item{
+    border: none;
+}
+.asterisk{
+    font-size: 9px;
+    vertical-align: middle;
+}
+.note{
+    font-size: 12px;
+}
+
+/* filter button style here  */
+  .filterDiv {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+
+  .btn.active{
+      border:1px solid #ccc;
+  }
+
+  .btn.active:focus{
+      outline: none;
+      box-shadow: none;
+  }

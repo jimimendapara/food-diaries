@@ -1,2 +1,2 @@
-# food-diaries
-This is a project regarding recipes
+# Food Diaries
+Creating Recipe book (add, view and delete recipes)
